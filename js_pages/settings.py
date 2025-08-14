@@ -145,3 +145,6 @@ EMAIL_HOST_USER = 'jeevajeeva6322@gmail.com'       # your email
 EMAIL_HOST_PASSWORD = 'qsap rerr mfsg amnn'     # app password, NOT your Gmail login password
 
 ALLOWED_HOSTS = ['JeevananthamS.pythonanywhere.com']
+
+SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'dev-only')
+DEBUG = os.environ.get('DJANGO_DEBUG', 'False') == 'True'

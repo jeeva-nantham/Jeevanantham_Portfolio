@@ -144,3 +144,4 @@ EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'jeevajeeva6322@gmail.com'       # your email
 EMAIL_HOST_PASSWORD = 'qsap rerr mfsg amnn'     # app password, NOT your Gmail login password
 
+ALLOWED_HOSTS = ['JeevananthamS.pythonanywhere.com']
